@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 960px;
+    height: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border: solid 2px black;
+    flex: 0 1 auto;
+}
