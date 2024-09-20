@@ -2,6 +2,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+    
 }
 
 .container{
@@ -12,4 +15,8 @@ body{
     margin: auto;
     border: solid 2px black;
     flex: 0 1 auto;
+}
+
+button{
+    margin: 0 0 2% 0;
 }
